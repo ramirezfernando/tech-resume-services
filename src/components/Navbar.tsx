@@ -17,33 +17,26 @@ const Navbar = () => {
             />
           </div>
         </a>
-        <span className="text-md font-bold tracking-wider text-nowrap">Tech Resume Services</span>
+        <span className="text-md font-bold tracking-wider text-nowrap">
+          Tech Resume Services
+        </span>
 
         <div className="hidden h-5 border-r border-gray-200 sm:block "></div>
 
         <div className="hidden w-full items-center justify-end gap-4 px-4 sm:flex">
-          <a
-            className="text-sm text-[#444240] hover:underline"
-            href="/"
-          >
+          <a className="text-sm text-[#444240] hover:underline" href="#home">
             Home
           </a>
           <a
             className="text-sm text-[#444240] hover:underline"
-            href="#services"
+            href="#testimonials"
           >
-            Services
+            Testimonials
           </a>
-          <a
-            className="text-sm text-[#444240] hover:underline"
-            href="#pricing"
-          >
+          <a className="text-sm text-[#444240] hover:underline" href="#pricing">
             Pricing
           </a>
-          <a
-            className="text-sm text-[#444240] hover:underline"
-            href="#faq"
-          >
+          <a className="text-sm text-[#444240] hover:underline" href="#faq">
             FAQ
           </a>
         </div>
