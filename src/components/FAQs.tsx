@@ -18,7 +18,7 @@ const FAQsHeader = ({ title, subtitle }: { title: string; subtitle: ReactNode })
 
 export default function FAQs() {
   return (
-    <section className="w-full py-4 font-light">
+    <section className="w-full py-4 font-light mt-8">
       <FAQsHeader title="Frequently Asked Questions" 
       subtitle={(<span>
         Do you have a question that isn't answered here? Email me  <a className="underline" href="mailto:ramirez.fernando2003@gmail.com">here</a>.
@@ -28,9 +28,9 @@ export default function FAQs() {
 
       <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
-        <AccordionTrigger>🛠 Test</AccordionTrigger>
+        <AccordionTrigger>🤔 Why should I pay for a resume review?</AccordionTrigger>
         <AccordionContent>
-          This is a test
+            The same reason you pay for a haircut. You can do it yourself, but it's better to have a professional do it.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

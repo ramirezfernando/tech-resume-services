@@ -36,7 +36,7 @@ export default function Testimonials({
     <section className="w-full py-4 font-light">
       <TestimonialHeader title="Testimonials" subtitle="What people I've helped have to say" />
 
-      <div className="mx-auto lg:max-w-6xl px-3 font-light">
+      <div className="mx-auto lg:max-w-6xl px-3 font-light mt-8">
         <Carousel>
           <CarouselContent>
             {testimonials.map((testimonial, index) => (

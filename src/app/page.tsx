@@ -18,21 +18,21 @@ export default function Page() {
         </div>
       </div>
 
-      <div className=" pt-40 flex justify-center">
+      <div className="pt-40 flex justify-center">
         <Home />
       </div>
 
       <CompanyGrid />
 
-      <div id="testimonials" className="container pb-20">
+      <div id="testimonials" className="container md:pb-20">
         <Testimonials testimonials={testimonials} />
       </div>
 
-      <div id="pricing" className="container pb-20">
+      <div id="pricing" className="container md:pb-20">
         <Pricing />
       </div>
 
-      <div id="faq" className="container pb-40">
+      <div id="faq" className="container md:pb-40">
         <FAQs />
       </div>
     </main>
