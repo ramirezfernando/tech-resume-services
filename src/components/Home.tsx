@@ -51,7 +51,7 @@ const Home = () => {
               <span className="font-medium">Jane Street's</span> office in NYC
             </li>
             <li className="md:text-nowrap">
-              📄 Passed resume screens for 12+{" "}<span className="font-medium">Big Tech</span> companies
+              📄 Passed resume screens for {" "}<span className="font-medium">12+ Big Tech</span> companies
             </li>
           </ul>
         </div>
