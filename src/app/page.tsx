@@ -1,7 +1,7 @@
 import FloatingMenu from "../components/FloatingMenu";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
-import Testimonials from "../components/Testimonials";
+import CompanyGrid from "../components/CompanyGrid";
 
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
         <Home/>
       </div>
 
-      <Testimonials/>
+      <CompanyGrid/>
 
     </main>
   );

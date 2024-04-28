@@ -1,6 +1,6 @@
 "use client";
 
-const Testimonials = () => {
+const CompanyGrid = () => {
   return (
     <div>
       <div className="mt-20 mb-20 md:mb-40 lg:mt-40">
@@ -392,4 +392,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default CompanyGrid;
