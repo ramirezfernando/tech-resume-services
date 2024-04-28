@@ -50,7 +50,7 @@ const Home = () => {
               🚕 Been invited to{" "}
               <span className="font-medium">Jane Street's</span> office in NYC
             </li>
-            <li>
+            <li className="md:text-nowrap">
               📄 Passed resume screens for 12+{" "}<span className="font-medium">Big Tech</span> companies
             </li>
           </ul>
