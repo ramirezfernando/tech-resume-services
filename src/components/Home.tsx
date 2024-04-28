@@ -19,19 +19,12 @@ const Home = () => {
               target="_blank"
               rel="noopener"
             >
-              <span className="font-medium cursor-pointer hover:underline underline-offset-2">
+              <span className="font-medium cursor-pointer underline underline-offset-2 hover:text-black">
                 Fernando Ramirez
               </span>
             </a>{" "}
             and I made Tech Resumes Services to help you build a better resume
-            to stand out in the tech industry.
-          </p>
-        </div>
-
-        <div className="w-full max-w-xl font-light text-[#444240]">
-          <p className="text-center md:text-start">
-            {"I'm"} a software engineer at Microsoft and previously worked at
-            Amazon. I know what it takes to get a job in tech. {"I've"} also helped
+            to stand out in the tech industry. {"I've"} also helped
             students receive internship offers from big tech companies.
           </p>
         </div>
@@ -51,7 +44,7 @@ const Home = () => {
               <span className="font-medium">{"Jane Street's"}</span> office in NYC
             </li>
             <li className="md:text-nowrap">
-              📄 Passed resume screens for {" "}<span className="font-medium">12+ Big Tech</span> companies
+              📄 Passed resume screens for {" "}<span className="font-medium">20+ Big Tech</span> companies
             </li>
           </ul>
         </div>
