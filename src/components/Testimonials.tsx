@@ -21,12 +21,20 @@ interface TestimonialSliderCardProps {
   testimonials: Testimonial[];
 }
 
+const TestimonialHeader = ({ title, subtitle }: { title: string; subtitle: string }) => (
+  <section className="text-center">
+    <h2 className="text-3xl font-bold">{title}</h2>
+    <p className="text-xl pt-1">{subtitle}</p>
+    <br />
+  </section>
+)
+
 export default function Testimonials({
   testimonials,
 }: TestimonialSliderCardProps) {
   return (
     <section className="w-full py-4">
-      <div className="flex justify-center pb-8 text-3xl font-normal text-[#444240] sm:text-3xl">Testimonials</div>
+      <TestimonialHeader title="Testimonials" subtitle="What people I've helped have to say" />
 
       <div className="mx-auto lg:max-w-6xl px-3 font-light">
         <Carousel>

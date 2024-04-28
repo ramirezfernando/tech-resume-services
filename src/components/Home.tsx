@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div className=" relative flex w-full flex-col items-center justify-center gap-6 px-4 text-center md:w-8/12 md:items-start md:gap-10 ">
-        <div className="w-full space-y-2 text-4xl font-normal text-[#444240] sm:text-5xl">
+        <div className="w-full space-y-2 text-4xl font-normal sm:text-5xl">
           <h1 className="text-center md:text-start">
             Build a better
             <br />

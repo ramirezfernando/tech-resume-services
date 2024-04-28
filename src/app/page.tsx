@@ -4,7 +4,7 @@ import Home from "../components/Home";
 import CompanyGrid from "../components/CompanyGrid";
 import Testimonials from "../components/Testimonials";
 import { testimonials } from "../data/data";
-
+import Pricing from "../components/Pricing";
 export default function Page() {
   return (
     <main id="home">
@@ -22,8 +22,12 @@ export default function Page() {
 
       <CompanyGrid />
 
-      <div id="testimonials" className="container">
+      <div id="testimonials" className="container pb-20">
         <Testimonials testimonials={testimonials} />
+      </div>
+
+      <div id="pricing" className="container">
+        <Pricing />
       </div>
     </main>
   );
