@@ -33,7 +33,7 @@ export default function Testimonials({
   testimonials,
 }: TestimonialSliderCardProps) {
   return (
-    <section className="w-full py-4">
+    <section className="w-full py-4 font-light">
       <TestimonialHeader title="Testimonials" subtitle="What people I've helped have to say" />
 
       <div className="mx-auto lg:max-w-6xl px-3 font-light">
