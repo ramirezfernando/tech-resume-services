@@ -4,7 +4,7 @@ const CompanyGrid = () => {
   return (
     <div>
       <div className="mt-20 mb-20 md:mb-40 lg:mt-40">
-        <h3 className="text-base text-center mb-6 text-[#232323]">
+        <h3 className="text-base text-center mb-6 text-[#232323] font-medium">
           Interviewed by these companies
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-8 justify-items-center">
