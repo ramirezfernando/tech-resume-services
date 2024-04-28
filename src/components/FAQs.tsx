@@ -21,7 +21,7 @@ export default function FAQs() {
     <section className="w-full py-4 font-light mt-8">
       <FAQsHeader title="Frequently Asked Questions" 
       subtitle={(<span>
-        Do you have a question that isn't answered here? Email me  <a className="underline" href="mailto:ramirez.fernando2003@gmail.com">here</a>.
+        {"Do you have a question that isn't answered here? Email me"}  <a className="underline" href="mailto:ramirez.fernando2003@gmail.com">here</a>.
       </span>)}/>
 
       <div className="mx-auto lg:max-w-6xl px-3 font-light text-[#444240]">
@@ -30,7 +30,7 @@ export default function FAQs() {
       <AccordionItem value="item-1">
         <AccordionTrigger>🤔 Why should I pay for a resume review?</AccordionTrigger>
         <AccordionContent>
-            The same reason you pay for a haircut. You can do it yourself, but it's better to have a professional do it.
+            {"The same reason you pay for a haircut. You can do it yourself, but it's better to have a professional do it."}
         </AccordionContent>
       </AccordionItem>
     </Accordion>

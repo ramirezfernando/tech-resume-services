@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         <div className="w-full max-w-xl font-light text-[#444240]">
           <p className="text-center md:text-start">
-            I'm{" "}
+            {"I'm"}{" "}
             <a
               href="https://www.fernandoramirez.me"
               target="_blank"
@@ -30,8 +30,8 @@ const Home = () => {
 
         <div className="w-full max-w-xl font-light text-[#444240]">
           <p className="text-center md:text-start">
-            I'm a software engineer at Microsoft and previously worked at
-            Amazon. I know what it takes to get a job in tech. I've also helped
+            {"I'm"} a software engineer at Microsoft and previously worked at
+            Amazon. I know what it takes to get a job in tech. {"I've"} also helped
             students receive internship offers from big tech companies.
           </p>
         </div>
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="w-full max-w-xl font-light text-[#444240]">
           <ul className="text-start">
             <li>
-              📍 I'm a software engineer at{" "}
+              📍 {"I'm"} a software engineer at{" "}
               <span className="font-medium">Microsoft</span>
             </li>
             <li>
@@ -48,7 +48,7 @@ const Home = () => {
             </li>
             <li>
               🚕 Been invited to{" "}
-              <span className="font-medium">Jane Street's</span> office in NYC
+              <span className="font-medium">{"Jane Street's"}</span> office in NYC
             </li>
             <li className="md:text-nowrap">
               📄 Passed resume screens for {" "}<span className="font-medium">12+ Big Tech</span> companies
