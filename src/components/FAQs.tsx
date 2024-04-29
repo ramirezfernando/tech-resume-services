@@ -33,6 +33,14 @@ export default function FAQs() {
             {"The same reason you pay for a haircut. You can do it yourself, but it's better to have a professional do it."}
         </AccordionContent>
       </AccordionItem>
+
+      <AccordionItem value="item-2">
+        <AccordionTrigger>☕️ Are you open to coffee chats?</AccordionTrigger>
+        <AccordionContent>
+            {"Yes! I'm always open to meeting new people and learning about their experiences. Send me an email to schedule a time at ramirez.fernando2003@gmail.com."}
+        </AccordionContent>
+      </AccordionItem>
+
     </Accordion>
         
       </div>
