@@ -28,6 +28,12 @@ const PricingCard = ({ title, hourlyPrice, description, features, actionLabel, p
       <CardHeader className="pb-8 pt-4">
         
           <CardTitle className="text-zinc-700 dark:text-zinc-300 text-lg">{title}</CardTitle>
+            {popular &&
+            <div
+              className="px-2.5 rounded-xl h-fit w-fit text-sm py-1 bg-zinc-200 text-black bg-gradient-to-r from-orange-400 to-rose-400 ">
+              Most Popular
+            </div>
+            }
         
         <div className="flex gap-0.5">
           <h3 className="text-3xl font-bold">{hourlyPrice ? '$' + hourlyPrice : '$10'}</h3>
@@ -67,6 +73,7 @@ export default function Pricing() {
       description: "Perfect for those who prefer asynchronous communication",
       features: ["Resume Review", "Back-and-forth messaging"],
       actionLabel: "Contact Me",
+      popular: false,
     },
     {
       title: "Synchronous Resume Review",

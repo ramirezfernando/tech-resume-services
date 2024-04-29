@@ -1,6 +1,6 @@
 export const testimonials = [
     {
-      quote: "Fernando helped me revamp my resume which has gotten me interviews with Salesforce, Visa, J.P. Morgan, Asana, and Microsoft. Thanks to Fernando's amazing help, I can happily say that I have gotten an offer from Microsoft!",
+      quote: "Fernando helped me revamp my resume which has gotten me interviews with Salesforce, Visa, Apple, Asana, and Microsoft. Thanks to Fernando's amazing help, I can happily say that I have gotten an offer from Microsoft!",
       name: "Katrina V.",
       role: "Software Engineer Intern",
       imgSrc: "https://avatars.githubusercontent.com/u/124599?v=4",
@@ -16,6 +16,12 @@ export const testimonials = [
       name: "Jorell P.",
       role: "UX Designer Intern",
       imgSrc: "https://i.pravatar.cc/120?img=9",
+    },
+    {
+        quote: "By constructing a resume from scratch with Fernando, we produced one that got me interviewed at companies such as Apple and Microsoft. Afterward, I eventually landed an offer from Microsoft as a SWE intern by utilizing his expertise in interviews and practicing with him. Even though I'm a computer engineering major, he was significantly helpful at every stage in the internship process. Without Fernando, I definitely wouldn't have gotten to where I am today, and If I could do it all over again, I'd 100% utilize Fernando's services for the internship grind.",
+        name: "Alex D.",
+        role: "Software Engineer Intern",
+        imgSrc: "https://avatars.githubusercontent.com/u/124599?v=4",
     },
     {
       quote: "Fernando skillfully dissected my resume, addressing formatting, content, and clarity. His guidance helped me revamp my resume and gain valuable insights. I highly recommend his resume services.",
