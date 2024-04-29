@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex-center mx-auto h-12 rounded-full border bg-white/60 pt-1 px-2 pl-4 shadow-[5px_5px_30px_rgba(190,190,190,0.15),-5px_-5px_30px_rgba(255,255,255,0.15)] backdrop-blur-md">
+    <div className="flex-center mx-auto h-12 rounded-full border bg-white/60 pt-1 px-2 pl-4 shadow-[5px_5px_30px_rgba(190,190,190,0.15),-5px_-5px_30px_rgba(255,255,255,0.15)] backdrop-blur-md ">
       <div className="flex w-full justify-between items-center gap-6">
         <a className="flex w-full items-center justify-start gap-2" href="/">
           <div className="flex-center w-fit">

@@ -6,6 +6,7 @@ import Testimonials from "../components/Testimonials";
 import { testimonials } from "../data/data";
 import Pricing from "../components/Pricing";
 import FAQs from "../components/FAQs";
+import Footer from "../components/Footer";
 
 export default function Page() {
   return (
@@ -34,6 +35,10 @@ export default function Page() {
 
       <div id="faq" className="container md:pb-40">
         <FAQs />
+      </div>
+
+      <div className="container">
+        <Footer />
       </div>
     </main>
   );

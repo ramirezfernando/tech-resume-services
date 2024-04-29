@@ -27,7 +27,7 @@ const PricingCard = ({ title, hourlyPrice, description, features, actionLabel, p
     <div>
       <CardHeader className="pb-8 pt-4">
         
-          <CardTitle className="text-zinc-700 dark:text-zinc-300 text-lg">{title}</CardTitle>
+          <CardTitle className="text-zinc-700 text-lg">{title}</CardTitle>
             {popular &&
             <div
               className="px-2.5 rounded-xl h-fit w-fit text-sm py-1 bg-zinc-200 text-black bg-gradient-to-r from-orange-400 to-rose-400 ">
