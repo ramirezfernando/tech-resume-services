@@ -6,6 +6,12 @@ export const testimonials = [
       imgSrc: "https://avatars.githubusercontent.com/u/124599?v=4",
     },
     {
+      quote: "By constructing a resume from scratch with Fernando, we produced one that got me interviewed at companies such as Apple and Microsoft. Afterward, I eventually landed an offer from Microsoft as a SWE intern by utilizing his expertise in interviews and practicing with him. Even though I'm a computer engineering major, he was significantly helpful at every stage in the internship process. Without Fernando, I definitely wouldn't have gotten to where I am today, and If I could do it all over again, I'd 100% utilize Fernando's services for the internship grind.",
+      name: "Alex D.",
+      role: "Software Engineer Intern",
+      imgSrc: "https://avatars.githubusercontent.com/u/124599?v=4",
+    },
+    {
       quote: "Amazing. Just amazing. Moved forward with interviews from Amazon, Robinhood, Microsoft, Pinterest, Capital One, JP Morgan, AT&T.",
       name: "Bryant L.",
       role: "Software Engineer",
@@ -16,12 +22,6 @@ export const testimonials = [
       name: "Jorell P.",
       role: "UX Designer Intern",
       imgSrc: "https://i.pravatar.cc/120?img=9",
-    },
-    {
-        quote: "By constructing a resume from scratch with Fernando, we produced one that got me interviewed at companies such as Apple and Microsoft. Afterward, I eventually landed an offer from Microsoft as a SWE intern by utilizing his expertise in interviews and practicing with him. Even though I'm a computer engineering major, he was significantly helpful at every stage in the internship process. Without Fernando, I definitely wouldn't have gotten to where I am today, and If I could do it all over again, I'd 100% utilize Fernando's services for the internship grind.",
-        name: "Alex D.",
-        role: "Software Engineer Intern",
-        imgSrc: "https://avatars.githubusercontent.com/u/124599?v=4",
     },
     {
       quote: "Fernando skillfully dissected my resume, addressing formatting, content, and clarity. His guidance helped me revamp my resume and gain valuable insights. I highly recommend his resume services.",
@@ -36,3 +36,21 @@ export const testimonials = [
       imgSrc: "https://i.pravatar.cc/120?img=8",
     },
   ];
+
+export const faqs = [
+  {
+    emoji: "💵",
+    question: "Why should I pay for a resume review?",
+    answer: "The same reason you pay for a haircut. You can do it yourself, but it's better to have someone with more experience do it.",
+  },
+  {
+    emoji: "🤔",
+    question: "What is the difference between the Synchronous and Asynchronous Resume Review?",
+    answer: "In the Synchronous Resume Review, we will work together in real-time to improve your resume. In the Asynchronous Resume Review, I will provide feedback on your resume within 24 hours and answer any questions you may have about the feedback.",
+  },
+  {
+    emoji: "☕️",
+    question: "Are you open to coffee chats?",
+    answer: "Yes! I'm always open to meeting new people and learning about their experiences. Shoot me an email to schedule a time at: ramirez.fernando2003@gmail.com"
+  },
+];
