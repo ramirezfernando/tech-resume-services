@@ -1,7 +1,7 @@
 //Parent of this component is a div with "fixed" className
 
 'use client'
-import { motion, useTransform, useScroll, useSpring, useMotionValueEvent } from 'framer-motion'
+import { motion, useTransform, useScroll, useSpring } from 'framer-motion'
 
 const ScrollFloatingAnimation = ({ children }: { children: React.ReactNode }) => {
   const { scrollYProgress } = useScroll()

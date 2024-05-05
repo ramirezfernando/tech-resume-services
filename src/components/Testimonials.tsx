@@ -1,6 +1,5 @@
 "use client";
 
-import { Card, CardContent } from "./ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import Autoplay from "embla-carousel-autoplay";
 import {
